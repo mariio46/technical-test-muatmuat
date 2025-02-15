@@ -8,4 +8,6 @@ const Container = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivE
     },
 );
 
+Container.displayName = 'Container';
+
 export { Container };

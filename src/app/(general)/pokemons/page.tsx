@@ -12,7 +12,7 @@ export default function Page() {
             <section id='header' className='border-y'>
                 <Container className='space-y-3 py-24'>
                     <HeaderTitle>Pokemons</HeaderTitle>
-                    <HeaderSubTitle>All the Pokémon data you'll ever need in one place.</HeaderSubTitle>
+                    <HeaderSubTitle>All the Pokémon data you&apos;ll ever need in one place.</HeaderSubTitle>
                     <div className='flex items-center gap-5'>
                         <Button asChild>
                             <Link href='/'>Back to home</Link>

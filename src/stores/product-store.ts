@@ -40,7 +40,7 @@ export const useProductStore = create<ProductState & ProductAction>()(
             filterResult: () => {
                 const { search, products, order } = get();
 
-                let filterResult = products.filter((product) =>
+                const filterResult = products.filter((product) =>
                     product.name.toLowerCase().includes(search.toLowerCase()),
                 );
 
