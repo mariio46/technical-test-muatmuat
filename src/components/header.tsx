@@ -18,7 +18,7 @@ const HeaderTitle = ({ children, className, ...props }: React.HTMLAttributes<HTM
 
 const HeaderSubTitle = ({ children, className, ...props }: React.HTMLAttributes<HTMLParagraphElement>) => {
     return (
-        <p className={cn('text-muted-foreground max-w-xl text-sm lg:text-base', className)} {...props}>
+        <p className={cn('max-w-xl text-sm text-muted-foreground lg:text-base', className)} {...props}>
             {children}
         </p>
     );

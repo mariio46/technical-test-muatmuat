@@ -44,7 +44,7 @@ const ProductContent = () => {
                         className={cn('shrink-0 [&_svg]:size-5', !show && 'hidden')}
                         onClick={clearFilter}>
                         <span className='sr-only'>Clear Filter</span>
-                        <CircleX className='text-destructive stroke-2' />
+                        <CircleX className='stroke-2 text-destructive' />
                     </Button>
                     <Input
                         type='text'

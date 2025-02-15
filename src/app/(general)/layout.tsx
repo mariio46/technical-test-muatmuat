@@ -1,3 +1,3 @@
 export default function GeneralLayout({ children }: { children: React.ReactNode }) {
-    return <main className='bg-background-secondary min-h-dvh'>{children}</main>;
+    return <main className='min-h-dvh bg-background-secondary'>{children}</main>;
 }
