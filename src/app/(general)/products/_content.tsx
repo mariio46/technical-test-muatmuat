@@ -4,6 +4,7 @@ import * as React from 'react';
 
 import { CircleX } from 'lucide-react';
 
+import { cn } from '@/lib/utils';
 import { useProductStore } from '@/stores/product-store';
 
 import { ProductBlock } from '@/components/blocks/product-block';
@@ -12,7 +13,6 @@ import { ProductSkeleton } from '@/components/skeleton/product-skeleton';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { cn } from '@/lib/utils';
 
 const ProductContent = () => {
     const [isClient, setIsClient] = React.useState(false);
