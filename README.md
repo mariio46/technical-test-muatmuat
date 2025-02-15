@@ -28,3 +28,5 @@ npm run dev
     - Update
     - Delete
 - Pokemons
+    - Filters :
+        - Search
