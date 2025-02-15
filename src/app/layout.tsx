@@ -3,6 +3,8 @@ import type { Metadata } from 'next';
 import { cn } from '@/lib/utils';
 import { geistMono, geistSans } from './fonts';
 
+import { TanstackQueryProvider } from '@/providers/tanstack-provider';
+
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -18,7 +20,7 @@ export default function RootLayout({
     return (
         <html lang='en' className={cn(geistSans.variable, geistMono.variable)}>
             <body className='font-sans antialiased' suppressHydrationWarning>
-                {children}
+                <TanstackQueryProvider>{children}</TanstackQueryProvider>
             </body>
         </html>
     );
